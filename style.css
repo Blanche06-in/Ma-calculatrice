@@ -30,19 +30,23 @@ body{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    border-bottom-right-radius: ;
+    border-bottom-right-radius: 20px;
 
 }
 .touches{
     display: grid;
-    grid-template-columns: repeat(5,50px);
+    grid-template-columns: repeat(4,50px);
     grid-auto-rows: 70px;
    grid-gap: 10px;
 
 }
 .bouton{
    border: none;
-   border-radius: 5px;
+   border-radius: 50%;
    background-color: #eee;
    cursor:pointer; 
+}
+.egale{
+    background-color: blue;
+    color: #eee;
 }
