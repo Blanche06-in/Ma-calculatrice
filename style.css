@@ -41,11 +41,11 @@ body{
 
 }
 .bouton{
-   height: 50px;
+   height: 40px;
     background-color: #555;
-    color: white;
+    color: gray;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 18px;
     cursor: pointer;
 }
